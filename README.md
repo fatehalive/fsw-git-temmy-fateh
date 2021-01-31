@@ -33,7 +33,9 @@ deadline: 20210131 23:59
 
 * [x] **Create a repository** with the following name *fsw-git_team-member*.
 * [x] Make sure the repository's **visibiity is public**.
-* [x] **Create branch** with the name *develop* and **switch** to this branch. `git branch develop && git switch develop` or `git checkout develop`.
-- [ ] In develop HEAD, **Create** at least 1 branch represent a **feature** of the project. `git checkout shop` or `git branch shop && git switch shop`. But make sure to make commit first.
-- [ ] After editing files in feature branch, commit in that branch.
-- [ ] 
+* [x] **Create branch** with the name *develop* and **switch** to this branch. `git branch develop && git switch develop` or `git checkout -b develop`.
+* [x] In develop HEAD, **Create** at least 1 branch represent a **feature** of the project. `git checkout -b shop` or `git branch shop && git switch shop`.
+* [x] After add and editing files in feature branch, commit in that branch then switch to develop branch. `git switch develop`
+* [x] Before merging to develop branch, look at the history what has changed then merge. `git fetch && git merge shop` or `git pull`
+* [x] Do the same to main branch then push.
+* [x] Share repo to group.
